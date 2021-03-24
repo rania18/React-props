@@ -1,0 +1,28 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-color: #f0e4d7;
+}
+.profilWrapper {
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff7171;
+  box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.1);
+}
+.profilPhoto {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
